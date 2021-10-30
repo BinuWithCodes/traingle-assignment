@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>traingle</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			.t {
+				width: 0px;
+				height: 0px;
+				border: 100px solid black;
+				border-top: 100px solid transparent;
+				border-left: 100px solid transparent;
+				border-right: 100px solid transparent;
+				position: relative;
+			}
+
+			#traingle1 {
+				border-bottom: 100px solid red;
+				top: 150px;
+				margin-left: 550px;
+				z-index: 5;
+			}
+			#traingle2 {
+				border-bottom: 100px solid darkblue;
+				margin-left: 550px;
+				z-index: 4;
+			}
+			#traingle3 {
+				border-bottom: 100px solid darkgreen;
+
+				margin-left: 550px;
+				top: -160px;
+				z-index: 3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="t" id="traingle1"></div>
+		<div class="t" id="traingle2"></div>
+		<div class="t" id="traingle3"></div>
+	</body>
+</html>
